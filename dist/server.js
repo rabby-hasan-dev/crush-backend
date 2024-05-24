@@ -21,7 +21,7 @@ function main() {
         try {
             yield mongoose_1.default.connect(index_1.default.database_url);
             server = app_1.default.listen(index_1.default.port, () => {
-                console.log(`Example app listening on port ${index_1.default.port}`);
+                console.log(` app listening on port ${index_1.default.port}`);
             });
         }
         catch (err) {
